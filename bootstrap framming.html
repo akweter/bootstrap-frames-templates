@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags always comes first-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Try page</title>
+    
+    <!--Boostrap CSS-->
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome.min.css">
+  <link rel="stylesheet" href="./bootstrap-social.css">
+</head>
+<body>
+
+    <style>
+        
+    .try-body{
+        background-color: lightgreen;
+        border: 5px solid gold;
+        width: 500px;
+        height: 610px;
+    }
+
+    .indexing{color: blue; text-align: center;}
+
+    .z-index{margin-top: 100px; margin-bottom: auto;}
+
+    #first-one{
+        background-color: red;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        border: 3px solid blue;
+        margin: 15px;
+        z-index: 50px;
+        position: sticky;
+    }
+
+    #second-one{
+        background-color: yellow;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        border: 3px solid salmon;
+        margin-left: 40px;
+        margin-top: -45px;
+        z-index: 51px;
+        position: sticky;
+    }
+
+    #second-of-second{
+        background-color: orange;
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 300px;
+    }
+
+    #third-one{
+        background-color: white;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        border: 3px solid rebeccapurple;
+        margin-left: 70px;
+        margin-top: -30px;
+        position: relative;
+    }
+
+    #fourth-one{
+        background-color: pink;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        border: 3px solid seagreen;
+        margin-left: 100px;
+        margin-top: -30px;
+        zoom: 150%;
+    }
+
+    #fifth-one{
+        background-color: deepskyblue;
+        height: 120px;
+        width: 200px;
+        text-align: center;
+        border: 3px solid ghostwhite;
+        margin-left: 130px;
+        margin-top: -30px;
+    }
+
+
+    .classes-on-boostrap-grid{
+        margin: 30px ;
+    }
+
+
+    .my-container{
+        border: 1px solid rgb(72, 10, 189);
+        background-color: lightgray;
+    }
+
+    .my-row{
+        border: 3px solid red;
+        height: 120px;
+    }
+
+    .my-col{
+        border: 3px dotted blue;
+        background-color: lightgreen;
+        color: red;
+    }
+
+.footer{
+    background-color: rgba(15, 14, 14, 0.781);
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    min-height: 100px;
+    margin-top: 100px;
+}
+
+   </style>
+
+        <div class="jumbotron">
+            <h1 style="text-align: center;">Bootstrap Grid System & CSS Z-Index</h1>
+        </div>
+        
+        <div class="container my-container">
+
+            <div class="row my-row">
+                <div class="col col-9 my-col ">Row 1 Col 1 <kbd>col col-9 my-col</kbd></div>
+                <div class="col col-2 my-col">Row 1 Col 2 <kbd>col col-2 my-col</kbd></div>
+            </div>
+            <br>
+            <div class="row my-row">
+                <div class="col my-col">Row 2 Col 1 <kbd>col my-col</kbd></div>
+            </div>
+
+        </div>
+        <br>
+        <div class="container my-container">
+
+            <div class="row my-row">
+                <div class="col col-md-7 col-sm-6 my-col ">Row 1 Col 1 <kbd>col col-md-7 col-sm-6 my-col</kbd></div>
+                <div class="col col-md-5 col-sm-6 my-col">Row 1 Col 2 <kbd>col col-md-5 col-sm-6 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-center</h4>
+            <div class="row justify-content-center my-row">
+                <div class="col col-4 my-col">Row 2 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 2 Col 2 <kbd>col col-4 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-end</h4>
+            <div class="row justify-content-end my-row">
+                <div class="col col-4 my-col">Row 3 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 3 Col 2 <kbd>col col-4 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-around</h4>
+            <div class="row justify-content-around my-row">
+                <div class="col col-4 my-col">Row 4 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 4 Col 2 <kbd>col col-4 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-between</h4>
+            <div class="row justify-content-between my-row">
+                <div class="col col-4 my-col">Row 5 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 5 Col 2 <kbd>col col-4 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-between align-items-center</h4>
+            <div class="row justify-content-between align-items-center my-row">
+                <div class="col col-4 my-col">Row 6 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 6 Col 2 <kbd>col col-4 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-around align-items-center align-items-start</h4>
+            <div class="row justify-content-around align-items-start my-row">
+                <div class="col col-4 my-col">Row 7 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 7 Col 2 <kbd>col col-4 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-around align-items-stretch </h4>
+            <div class="row justify-content-around align-items-stretch my-row">
+                <div class="col col-4 my-col">Row 8 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 8 Col 2 <kbd>col col-4 my-col</kbd></div>
+            </div>
+            <cite>If large order is set to other col, then the larger ones overide the lesser one.</cite><br>
+            <q>In other words <kbd>large order</kbd> <strong>overides</strong> <kbd>lesser order</kbd></q>
+            <br>
+            <i><strong>order-md-2</strong> will <q>overide</q> <strong>order-md-12</strong> on larger screens</i>
+            <br>
+            <h4 style="text-align: center;">row justify-content-around align-items-stretch </h4>
+            <div class="row justify-content-around align-items-stretch my-row">
+                <div class="col col-4 order-md-12 my-col">Row 9 Col 1 <kbd>col col-4 order-md-12 my-col</kbd></div>
+                <div class="col col-4 order-md-2 my-col">Row 9 Col 2 <kbd>col col-4 order-md-2 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-around align-items-stretch </h4>
+            <div class="row justify-content-around align-items-stretch my-row">
+                <div class="col col-4 order-md-12 my-col">Row 10 Col 1 <kbd>col col-4 order-md-12 my-col</kbd></div>
+                <div class="col col-4 offset-md-2 order-md-2 my-col">Row 10 Col 2 <kbd>col col-4 offset-md-2 order-md-2 my-col</kbd></div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row justify-content-around align-items-stretch </h4>
+            <div class="row my-row">
+                <div class="col col-4 offset-md-2 my-col">Row 11 Col 1 <kbd>col col-4 offset-md-2 my-col</kbd></div>
+                <div class="col col-4 my-col">Row 11 Col 2 <kbd>col col-4 my-col</kbd></div>
+                <div>The fear of God in men</div>
+            </div>
+            <br>
+            <h4 style="text-align: center;">row </h4>
+            <div class="row  my-row">
+                <div class="col col-4 my-col">Row 12 Col 1 <kbd>col col-4 my-col</kbd></div>
+                <div class="col col-4 offset-md-2 order-md-2 my-col">Row 12 Col 2 <kbd>col col-4 offset-md-2 order-md-2 my-col</kbd></div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row z-index">
+            <div class="container">
+                <div class="try-body">
+                    <h3><strong class="indexing">Z Index in CSS</strong> <br> Z-Index are used for the position of <kbd>absolute</kbd>, <kbd>relative</kbd> and <kbd>fixed</kbd> </h3>
+                    <div id="first-one">one</div>
+                    <div id="second-one">two
+                        <div id="second-of-second">Orange</div>
+                    </div>
+                    <div id="third-one">three</div>
+                    <div id="fourth-one">four</div>
+                    <div id="fifth-one">fifth</div>
+                </div>
+            </div>
+        </div>      
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row "> 
+                <div class="col-12">
+                    <p>© Copyright 2022 Akweter</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+<script src="./bootstrap.js"></script>
+<script src="./bootstrap.min.js"></script>
+</body>
+</html>
